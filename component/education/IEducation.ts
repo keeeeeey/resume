@@ -36,5 +36,10 @@ export declare namespace IEducation {
      * @description 해당 값이 undefined 일 경우 아직 졸업하지 않은 것으로 판단.
      */
     endedAt?: string;
+
+    /**
+     * ### 교육 내용
+     */
+    description?: string;
   }
 }

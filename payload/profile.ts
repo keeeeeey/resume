@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faRss } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
@@ -11,13 +11,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: '김기윤',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'sseioul@gmail.com',
+      link: 'mailto:sseioul@gmail.com',
       icon: faEnvelope,
     },
     {
@@ -26,17 +25,17 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/keeeeeey',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
+      link: 'https://keylog.tistory.com',
+      icon: faRss,
     },
   ],
   notice: {
     title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+      "휴대전화나 페이스북 메시지 아닌 이메일로 연락 부탁드립니다.",
     icon: faBell,
   },
 };

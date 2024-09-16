@@ -4,160 +4,94 @@ const programmingLanguages: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
     {
-      title: 'C',
-      level: 3,
-    },
-    {
-      title: 'Shell Scripting',
-      level: 3,
-    },
-    {
-      title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
-      level: 2,
-    },
-    {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
-      level: 1,
-    },
-  ],
-};
-
-const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
-  items: [
-    {
-      title: 'Kernel Programming',
-      level: 3,
-    },
-    {
-      title: 'GNU Debugger',
-      level: 3,
-    },
-    {
-      title: 'Memory Management',
-      level: 2,
-    },
-    {
-      title: 'System Call Interface',
-      level: 2,
-    },
-  ],
-};
-
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
-  items: [
-    {
-      title: 'Docker',
-      level: 3,
-    },
-    {
-      title: 'KVM',
-      level: 3,
-    },
-    {
-      title: 'Xen',
-      level: 2,
-    },
-    {
-      title: 'VirtualBox',
-      level: 2,
-    },
-    {
-      title: 'VMware ESXi',
-      level: 1,
+      title: 'Java',
     },
   ],
 };
 
 const automation: ISkill.Skill = {
-  category: 'Automation',
+  category: 'Fameworks & Libraries',
   items: [
     {
-      title: 'Ansible',
-      level: 3,
+      title: 'Spring',
     },
     {
-      title: 'Puppet',
-      level: 3,
+      title: 'Spring Boot',
     },
     {
-      title: 'Chef',
-      level: 2,
+      title: 'Spring MVC',
     },
     {
-      title: 'Jenkins',
-      level: 2,
+      title: 'Spring Batch',
     },
     {
-      title: 'CI/CD Pipelines',
-      level: 1,
+      title: 'Spring Security',
     },
     {
-      title: 'Infrastructure as Code',
-      level: 1,
+      title: 'Spring Data JPA',
+    },
+    {
+      title: 'Querydsl',
+    },
+    {
+      title: 'Hibernate',
+    },
+    {
+      title: 'MyBatis',
     },
   ],
 };
 
 const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
+  category: 'Infrastructure & Databases',
   items: [
     {
-      title: 'iptables',
-      level: 3,
+      title: 'AWS',
     },
     {
-      title: 'OpenSSH',
-      level: 3,
+      title: 'nginx',
     },
     {
-      title: 'OpenSSL',
-      level: 2,
+      title: 'Redis',
     },
     {
-      title: 'NACLs',
-      level: 2,
+      title: 'Apache',
     },
     {
-      title: 'VPN Technologies',
-      level: 2,
+      title: 'Kafka',
     },
     {
-      title: 'Intrusion Detection',
-      level: 1,
+      title: 'Docker',
+    },
+    {
+      title: 'MySQL',
     },
   ],
 };
 
 const misc: ISkill.Skill = {
-  category: 'Misc',
+  category: 'Tools & IDES',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'IntelliJ',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: "Eclipse",
     },
     {
-      title: 'Table Tennis',
+      title: 'Git',
     },
     {
-      title: 'Guitar Playing',
+      title: 'GitHub',
     },
     {
-      title: 'Joke Telling',
+      title: 'Jenkins',
     },
     {
-      title: 'Duct Tape Crafting',
+      title: 'Gradle',
+    },
+    {
+      title: 'Maven',
     },
   ],
 };
@@ -166,8 +100,6 @@ const skill: ISkill.Payload = {
   disable: false,
   skills: [
     programmingLanguages,
-    kernelDevelopment,
-    virtualization,
     automation,
     networkSecurity,
     misc,

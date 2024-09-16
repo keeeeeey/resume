@@ -18,7 +18,6 @@ const etc: IEtc.Payload = {
       title: "자율 프로젝트 우수상 수상",
       subTitle: '삼성전자',
       startedAt: '2023-05',
-      link: 'https://github.com/Project-SeeYouAgain/SeeYouAgain',
     },
     {
       title: "OPIC IH",
@@ -34,7 +33,6 @@ const etc: IEtc.Payload = {
       title: "프로젝트 최우수상 수상",
       subTitle: '멀티캠퍼스',
       startedAt: '2021-12',
-      link: 'https://github.com/keeeeeey/TryIt',
     },
   ],
 };

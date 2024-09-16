@@ -35,10 +35,5 @@ export declare namespace IEtc {
      * @example '2015-03'
      */
     endedAt?: string;
-
-    /**
-     *  ### 깃허브 링크
-     */
-    link?: string;
   }
 }
